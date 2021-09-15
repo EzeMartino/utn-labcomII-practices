@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+</head>
+<body>
+    <h1><b>Iniciar sesión</b></h1>
+    
+    <p>Para iniciar sesión, debe ingresar su usuario y contraseña. Luego debe presionar el botón "Enviar"</p>
+    
+    <form method="POST" target="_blank">
+        <label for="usuario">Usuario:</label>
+        <input 
+            type="text" 
+            name="user"
+            id="usuario"
+            size="40"
+            maxlength="20"
+            placeholder="AlumnoTUP123"
+            autocomplete
+            required
+        >
+        <br>
+        <label for="contraseña">Contraseña:</label>
+        <input
+            name="pass"
+            type="password"
+            id="contraseña"
+            size="40"
+            maxlength="20"
+            required
+        >
+        <br>
+        <input type="submit" value="Enviar">
+        <br>
+        <label for="check">¿Desea recordar sus datos?</label>
+        <input type="checkbox" id="check">
+    </form>
+</body>
+</html>

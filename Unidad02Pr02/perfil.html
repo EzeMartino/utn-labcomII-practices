@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+</head>
+<body>
+    <h1>Ingrese sus datos para crear su perfil en la TUP</h1>
+    <form action="" method="POST" target="_blank">
+        <input 
+            type="text"
+            value="Estudiante"
+            size="15"
+            disabled
+        >
+        <br>
+        <br>
+        <label for="nombre_completo">Nombre completo:</label>
+        <input 
+            type="text"
+            name="nombre"
+            id="nombre_completo"
+            placeholder="Juan Perez"
+            size="50"
+            maxlength="40"
+            required
+            autocomplete
+        >
+        <br>
+        <br>
+        <label for="mail">Mail:</label>
+        <input 
+            type="text"
+            name="email"
+            id="mail"
+            placeholder="maildeejemplo@ejemplo.com"
+            size="50"
+            maxlength="30"
+            required
+            autocomplete
+        >
+        <br>
+        <br>
+        <label for="edad">Edad:</label>
+        <input 
+            type="number"
+            name="age"
+            id="edad"
+            size="10"
+            maxlength="3"
+            required
+        >
+        <br>
+        <br>
+        <label for="nacionalidad">Nacionalidad:</label>
+        <select name="nacionalidad" id="nacionalidad" required>
+            <option value="Elegir">Elija su nacionalidad</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Chile">Chile</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Haití">Haití</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Venezuela">Venezuela</option>
+            <option value="EstadosUnidos">Estados Unidos</option>
+            <option value="otro">Otro</option>
+        </select>
+        <br>
+        <br>
+        <label for="condicion">Condición laboral:</label>
+        <select name="condicionlaboral" id="condicion">
+            <option value="desempleado">Desempleado</option>
+            <option value="busqueda">En Búsqueda Laboral</option>
+            <option value="part_time">Trabajo Part-Time</option>
+            <option value="full_time">Trabajo Full-Time</option>
+        </select>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Gustos Personales:</legend>
+            <label for="musica">Gustos Musicales:</label>
+            <input
+                name="musica"
+                type="text"
+                id="musica"
+                size="50"
+                placeholder="¿Qué música te gusta?"
+            >
+            <br>
+            <br>
+            <label for="comida">Comida preferida:</label>
+            <select name="comida" id="comida">
+                <option value="milanesa">Milanesas</option>
+                <option value="asado">Asado</option>
+                <option value="noquis">Ñoquis</option>
+                <option value="ravioles">Ravioles</option>
+                <option value="tacos">Tacos</option>
+                <option value="lasagna">Lasagna</option>
+                <option value="pastelcarne">Pastel de Carne</option>
+                <option value="pizza">Pizza</option>
+                <option value="hamburguesa">Hamburguesa</option>
+                <option value="canelones">Canelones</option>
+                <option value="ceviche">Ceviche</option>
+                <option value="fideos">Fideos</option>
+                <option value="guiso">Guiso</option>
+                <option value="pollo">Pollo</option>
+                <option value="ensalada">Ensalada</option>
+                <option value="pescado">Pescado</option>
+                <option value="otro">Otra</option>
+            </select>
+        </fieldset>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+        <br>
+        <br>
+        <label for="check">¿Desea recordar sus datos?</label>
+        <input type="checkbox" id="check">
+        
+    </form>
+
+</body>
+</html>
