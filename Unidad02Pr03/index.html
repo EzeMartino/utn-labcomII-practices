@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +15,7 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             color: #aaaaaa;
         }
-        
+
         div.container {
             overflow: auto;
         }
@@ -71,19 +72,52 @@
             margin-top: 7px;
         }
 
-/* For mobile phones: */
+        /* For mobile phones: */
 
-    @media only screen and (max-width: 620px) {
+        @media only screen and (max-width: 620px) {
 
-        nav,
-        main,
-        .right {
-            width: 100%;
+            nav,
+            main,
+            .right {
+                width: 100%;
+            }
         }
-    }
-</style>
+    </style>
 </head>
+
 <body>
-    
+    <!-- Encabezado -->
+    <header>
+        <h1>Hola mundo!</h1>
+    </header>
+    <div class="container">
+        <!-- Navegación / contenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+            <section>
+                <h2>Lorum Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                    diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore magna aliquam erat volutpat.</p>
+            </section>
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Info</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p>© copyright labcomII.com</p>
+    </footer>
 </body>
+
 </html>
