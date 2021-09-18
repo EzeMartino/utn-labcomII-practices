@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Noticias Bloons TD6</title>
+    <link rel="stylesheet" href="css/index.css">
+
 </head>
 
 <body>
     <!-- Encabezado -->
     <header>
-        <h1>Hola mundo!</h1>
+        <h1>Bloons TD6 Noticias</h1>
     </header>
     <div class="container">
         <!-- Navegación / contenedor izquierdo -->
@@ -25,16 +27,66 @@
         <!-- Contenedor principal -->
         <main>
             <section>
-                <h2>Lorum Ipsum</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                    diam nonummy nibh euismod tincidunt ut
-                    laoreet dolore magna aliquam erat volutpat.</p>
+                <h2>Contactese con nosotros</h2>
+                <form method="POST" target="_blank">
+                    <label for="nombre">Nombre:</label>
+                    <input 
+                        type="text" 
+                        name="nombre"
+                        id="nombre"
+                        size="40"
+                        maxlength="20"
+                        autocomplete
+                        required
+                    >
+                    <br>
+                    <label for="email">Email:</label>
+                    <input
+                        name="email"
+                        type="text"
+                        id="email"
+                        size="40"
+                        maxlength="40"
+                        required
+                        autocomplete
+                    >
+                    <br>
+                    <label for="edad">Edad:</label>
+                    <input
+                        name="edad"
+                        type="number"
+                        id="edad"
+                        size="40"
+                        maxlength="40"
+                    >
+                    <br>
+                    <label for="colorfav">Color preferido:</label>
+                    <input
+                        name="colorfav"
+                        type="color"
+                        id="colorfav"
+                    >
+                    <br>
+                    <label for="comentario">Comentario:</label>
+                    <input
+                        name="comentario"
+                        type="textarea"
+                        id="comentario"
+                        size="40"
+                        minlength="10"
+                    >
+                    <br>
+                    <input type="submit" value="Enviar">
+                    
+                </form>
             </section>
         </main>
         <!-- Contenedor secundario / derecho -->
         <div class="right">
             <h2>Info</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            <p>Traducimos las noticias más importantes de Bloons TD6 al español. 
+                Visiten <a href="https://www.dualshockers.com/bloons-td-6-update-v27-0-patch-notes-new-event-new-tower/" target="_blank">
+                la siguiente página</a> para ver el último parche en inglés</p>
         </div>
     </div>
     <!-- Pie de Página-->
