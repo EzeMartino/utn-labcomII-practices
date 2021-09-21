@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias Bloons TD6</title>
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Bloons TD6 Noticias</h1>
+    </header>
+    <div class="container">
+        <!-- Navegación / contenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+            <section>
+                <h2>Contactese con nosotros</h2>
+                <form method="POST" target="_blank">
+                    <label for="nombre">Nombre:</label>
+                    <input 
+                        type="text" 
+                        name="nombre"
+                        id="nombre"
+                        size="40"
+                        maxlength="20"
+                        autocomplete
+                        required
+                    >
+                    <br>
+                    <label for="email">Email:</label>
+                    <input
+                        name="email"
+                        type="text"
+                        id="email"
+                        size="40"
+                        maxlength="40"
+                        required
+                        autocomplete
+                    >
+                    <br>
+                    <label for="edad">Edad:</label>
+                    <input
+                        name="edad"
+                        type="number"
+                        id="edad"
+                        size="40"
+                        maxlength="40"
+                    >
+                    <br>
+                    <label for="colorfav">Color preferido:</label>
+                    <input
+                        name="colorfav"
+                        type="color"
+                        id="colorfav"
+                    >
+                    <br>
+                    <label for="comentario">Comentario:</label>
+                    <input
+                        name="comentario"
+                        type="textarea"
+                        id="comentario"
+                        size="40"
+                        minlength="10"
+                    >
+                    <br>
+                    <input type="submit" value="Enviar">
+                    
+                </form>
+                <h2>Contacto directo:</h2>
+                <p>Para contactarse directamente con el equipo encargado de la página
+                    puede acercarse a la siguiente dirección:
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.8702575033476!2d-60.64592058444941!3d-32.95443468091875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab11d0eb49c3%3A0x11f1d3d54f950dd0!2sUniversidad%20Tecnol%C3%B3gica%20Nacional%20%7C%20Facultad%20Regional%20Rosario!5e0!3m2!1ses!2sar!4v1632262568142!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </section>
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Info</h2>
+            <p>Traducimos las noticias más importantes de Bloons TD6 al español. 
+                Visiten <a href="https://www.dualshockers.com/bloons-td-6-update-v27-0-patch-notes-new-event-new-tower/" target="_blank">
+                la siguiente página</a> para ver el último parche en inglés</p>
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p>© copyright labcomII.com</p>
+    </footer>
+</body>
+
+</html>
