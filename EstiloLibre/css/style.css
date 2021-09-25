@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-weight: 900;
+}
+
+h2{
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+
+h3{
+    color:brown;
+    font-family:'Times New Roman', Times, serif;
+    text-align: right;
+    font-weight: 500;
+}
+
+p{
+    color: magenta;
+}
